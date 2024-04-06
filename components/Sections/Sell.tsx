@@ -9,7 +9,7 @@ import Wrapper from "../Wrapper";
  */
 export default function Sell() {
   return (
-    <Section className="w-full py-6 md:py-12">
+    <Section className="w-full ">
       <Wrapper className=" grid gap-6  lg:grid-cols-2 xl:gap-12">
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">

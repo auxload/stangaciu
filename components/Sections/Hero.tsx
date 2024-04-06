@@ -11,6 +11,8 @@ const Hero = () => {
         alt="Hero"
         className="h-[60vh] md:h-[40rem] w-full overflow-hidden   object-cover"
         src="/hero.jpg"
+        width={500}
+        height={400}
       />
       <Wrapper>
         <div className="absolute inset-0 flex flex-col items-start justify-center gap-6  bg-gradient-to-tr from-black to-black/60">
