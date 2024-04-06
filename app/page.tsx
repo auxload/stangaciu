@@ -1,9 +1,22 @@
-import React from 'react'
+import AboutUs from "@/components/Sections/AboutUs";
+import Hero from "@/components/Sections/Hero";
+import Price from "@/components/Sections/Price";
+import Sell from "@/components/Sections/Sell";
+import Video from "@/components/Sections/Video";
+import React from "react";
+import { FooterSection } from "@/components/Sections/Footer";
 
 const page = () => {
   return (
-    <h1>Să-ți iau morții in pulă!</h1>
-  )
-}
+    <main>
+      <Hero />
+      <AboutUs />
+      <Sell />
+      <Price />
+      <Video />
+      <FooterSection />
+    </main>
+  );
+};
 
-export default page
+export default page;
