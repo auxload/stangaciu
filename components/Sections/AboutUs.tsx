@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Section from "../Section";
 import Wrapper from "../Wrapper";
 
@@ -5,7 +6,7 @@ export default function AboutUs() {
   return (
     <Section className="bg-accent w-full">
       <Wrapper className=" flex flex-col gap-4  md:gap-8 md:flex-row md:items-center  lg:gap-12">
-        <img
+        <Image
           alt="Photo"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center md:w-[400px] lg:order-last lg:w-[500px]"
           height="300"

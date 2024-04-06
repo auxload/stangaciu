@@ -2,11 +2,12 @@ import React from "react";
 import Wrapper from "../Wrapper";
 import Section from "../Section";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <Section className=" relative w-full">
-      <img
+      <Image
         alt="Hero"
         className="h-[60vh] md:h-[40rem] w-full overflow-hidden   object-cover"
         src="/hero.jpg"
