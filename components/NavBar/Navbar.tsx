@@ -31,7 +31,7 @@ const Navbar = () => {
       <TopNav className={`${isScrolled && "absolute -top-20"}`} />
       <header
         className={cn(
-          "border border-b bg-background/90 w-full",
+          " bg-background/90 w-full",
           `${isScrolled ? "fixed " : "relative"}`
         )}
       >
