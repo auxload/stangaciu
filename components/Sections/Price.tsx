@@ -25,10 +25,10 @@ export default function Price() {
           </div>
         </div>
         <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
-          <div className="flex flex-col items-start gap-3">
+          <div className="transition-transform hover:-translate-y-5 flex flex-col items-start gap-3 bg-primary/50 p-8 rounded-xl">
             <h3 className="text-3xl font-bold">Oferta Premium</h3>
             {/* <div className="text-4xl font-bold">$19</div> */}
-            <ul className="grid gap-2 text-sm list-disc list-inside">
+            <ul className="grid gap-2 text-sm list-disc list-inside ">
               <li>2 solisti</li>
               <li>3 instrumentisti</li>
               <li>Sonorizare profesionala</li>
@@ -41,14 +41,14 @@ export default function Price() {
               Solicita oferta
             </Link>
           </div>
-          <div className="flex flex-col items-start gap-3">
-            <h3 className="text-3xl font-bold">Oferta VIP</h3>
-            {/* <div className="text-4xl font-bold">$49</div> */}
+          <div className="transition-transform hover:-translate-y-5 flex flex-col items-start gap-3 bg-primary/50 p-8 rounded-xl">
+            <h3 className="text-3xl font-bold">Oferta Personalizata</h3>
+            {/* <div className="text-4xl font-bold">$99</div> */}
             <ul className="grid gap-2 text-sm list-disc list-inside">
-              <li>Ideal pentru mirii care vor să impresioneze</li>
-              <li>Sonorizare profesională</li>
-              <li> 4 instrumentiști</li>
-              <li>DJ</li>
+              <li>Includes everything in Pro</li>
+              <li>Parallelism: 16x</li>
+              <li>Concurrency: 16x</li>
+              <li>Support: 24/7 phone support</li>
             </ul>
             <Link
               className={cn(buttonVariants({ variant: "default" }))}
@@ -57,14 +57,14 @@ export default function Price() {
               Solicita oferta
             </Link>
           </div>
-          <div className="flex flex-col items-start gap-3">
-            <h3 className="text-3xl font-bold">Oferta Personalizata</h3>
-            {/* <div className="text-4xl font-bold">$99</div> */}
+          <div className="transition-transform hover:-translate-y-5 flex flex-col items-start gap-3 bg-primary/50 p-8 rounded-xl">
+            <h3 className="text-3xl font-bold">Oferta VIP</h3>
+            {/* <div className="text-4xl font-bold">$49</div> */}
             <ul className="grid gap-2 text-sm list-disc list-inside">
-              <li>Includes everything in Pro</li>
-              <li>Parallelism: 16x</li>
-              <li>Concurrency: 16x</li>
-              <li>Support: 24/7 phone support</li>
+              <li>Ideal pentru mirii care vor să impresioneze</li>
+              <li>Sonorizare profesională</li>
+              <li> 4 instrumentiști</li>
+              <li>DJ</li>
             </ul>
             <Link
               className={cn(buttonVariants({ variant: "default" }))}

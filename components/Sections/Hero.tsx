@@ -11,13 +11,13 @@ const Hero = () => {
     <Section className=" relative w-full">
       <Image
         alt="Hero"
-        className="h-[60vh] md:h-[40rem] w-full overflow-hidden   object-cover object-top"
+        className="h-[60vh] md:h-[80vh] w-full overflow-hidden   object-cover object-top "
         src="/hero2.jpg"
         width={500}
         height={400}
       />
       <Wrapper>
-        <div className="absolute inset-0 flex flex-col items-start justify-center gap-6  bg-gradient-to-tr from-black to-black/70">
+        <div className="absolute inset-0 flex flex-col items-start justify-center gap-6  bg-gradient-to-br from-black to-background/10">
           <div className="space-y-2 container">
             <h1 className="  text-3xl font-bold tracking-tighter  sm:text-4xl md:text-5xl lg:text-6xl/none md:w-[65%]">
               Transformă nunta ta într-o experiență autentică
