@@ -31,7 +31,7 @@ const Navigation = ({
               <NavigationMenuLink
                 className={cn(
                   navigationMenuTriggerStyle(),
-                  `${urlPath === navItem.path && "text-foreground underline"} ${
+                  `${urlPath === navItem.path && " underline text-primary"} ${
                     vertical && "text-lg my-2"
                   }`
                 )}
@@ -45,5 +45,4 @@ const Navigation = ({
     </NavigationMenu>
   );
 };
-
 export default Navigation;

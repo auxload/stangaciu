@@ -31,13 +31,13 @@ const Navbar = () => {
       <TopNav className={`${isScrolled && "absolute -top-20"}`} />
       <header
         className={cn(
-          "border border-b bg-black/80 w-full",
+          "border border-b bg-background/90 w-full",
           `${isScrolled ? "fixed " : "relative"}`
         )}
       >
         <Wrapper className="flex items-center h-20 justify-between">
           <Link href={"/"} className="text-2xl font-bold">
-            Formatia Stangaciu
+            Formatia <span className="text-primary">Stangaciu</span>
           </Link>
           <Navigation />
           <MobileNav />

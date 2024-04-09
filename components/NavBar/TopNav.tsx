@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const TopNav = ({ className }: { className?: string }) => {
   return (
-    <div className={cn("bg-secondary hidden md:block",className)}>
+    <div className={cn("bg-accent hidden md:block",className)}>
       <Wrapper className="flex items-center justify-between">
         <div className="flex items-center h-10 gap-4 text-xs">
           <span>Ne puteti contacta la</span>

@@ -8,7 +8,7 @@ export default function AboutUs() {
       <Wrapper className=" flex flex-col gap-4  md:gap-8 md:flex-row md:items-center  lg:gap-12">
         <Image
           alt="Photo"
-          className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center md:w-[400px] lg:order-last lg:w-[500px]"
+          className="mx-auto aspect-video object-top overflow-hidden rounded-xl object-cover  md:w-[400px] lg:order-last lg:w-[500px]"
           height="300"
           src="/hero.jpg"
           width="700"
