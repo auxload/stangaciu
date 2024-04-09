@@ -17,7 +17,7 @@ const Hero = () => {
         height={400}
       />
       <Wrapper>
-        <div className="absolute inset-0 flex flex-col items-start justify-center gap-6  bg-gradient-to-br from-black to-background/10">
+        <div className="absolute inset-0 flex flex-col items-start justify-center gap-6  bg-gradient-to-r from-black to-background/30">
           <div className="space-y-2 container">
             <h1 className="  text-3xl font-bold tracking-tighter  sm:text-4xl md:text-5xl lg:text-6xl/none md:w-[65%]">
               Transformă nunta ta într-o experiență autentică
